@@ -494,7 +494,25 @@ if models:
         3. Click "Predict Strength" to get results
         4. Compare predictions from different models
         """)
-    
+        # Developer Information
+    with st.expander("👨‍💻 About the Developer", expanded=False):
+        st.markdown("""
+        ### 👨‍💻 Developer Details
+
+        **Name:** Muhammad Aqib
+
+        **University:** QUAID-E-AWAM UNIVERSITY OF ENGINEERING, SCIENCE AND TECHNOLOGY, NAWABSHAH
+
+        **Email:** memaqib246@gmail.com
+
+        **Research Project:**  
+        *Prediction of Foam Concrete Compressive Strength Using Ensemble Machine Learning*
+
+        **Application:** Python & Streamlit
+
+        **Machine Learning Models:** XGBoost, CatBoost, AdaBoost
+        """)
+
     # Footer
     st.markdown("---")
     st.markdown("""
